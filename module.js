@@ -1,6 +1,6 @@
-// const {people,ages} = require('./peopele');
+const {people,ages} = require('./peopele');
 
-// console.log(people,ages);
+console.log(people,ages);
 
-// const os = require('os');
-// console.log(os.platform(), os.homedir());
+const os = require('os');
+console.log(os.platform(), os.homedir())
