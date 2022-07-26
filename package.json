@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Jattiem/Crah-Node-Course#readme",
   "description": "",
   "dependencies": {
+    "express": "^4.18.1",
     "lodash": "^4.17.21"
   }
 }
