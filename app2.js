@@ -1,4 +1,4 @@
-const { json } = require('body-parser');
+// const { json } = require('body-parser');
 const express = require('express');
 
 const app2 = express();
@@ -12,8 +12,8 @@ let courses = [
     ];
 
 app2.get('/', (req, res)=>{
-    res.send(JSON.stringify(courses));
-})
+    (res.send(JSON.stringify(courses)));
+});
 
 app2.get('/courses/:id',(req, res)=>{
     if (req.params.id > courses.length) {
